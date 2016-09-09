@@ -2,30 +2,45 @@ header {
   text-align:right;;
   font-weight: 800;
   color: #3410a7;
-  font-family: Oswald;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
   font-size: 20px;
+
 }
 
 body {
-  background-color: #fae8ea;
-  width: 800px;
+  background-image: linear-gradient(white, violet);
+  width: 900px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin: auto;
 }
-img {
-  width: 20px;
-  hegiht: 20px;
+
+.about{
+  text-align: center;
 }
 
-/*div {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.intro{
+  font-family: font-family: Papyrus, fantasy;
+  font-variant: small-caps;
+  background-image: radial-gradient(white, orange);
+}
+
+h1 {
+  font-family: Impact, Charcoal, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+#contact{
+  text-align: center;
+
 }
 
 img {
-  width:200px;
-  height: 100px;
+  width: 180px;
+  height: 80px;
 }
+li {
+list-style-type: none;
+{
