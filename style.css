@@ -16,27 +16,34 @@ body {
   margin: auto;
 }
 
-.about{
-  text-align: center;
-}
 
 .intro{
+  padding: 20px 40px;
   font-family: font-family: Papyrus, fantasy;
   font-variant: small-caps;
+  font-size: 50px;
+  color: purple;
+  text-align: center;
   background-image: radial-gradient(white, orange);
 }
 
+a:hover{
+  background-color: grey;
+}
 h1 {
-  font-family: Impact, Charcoal, sans-serif;
-  text-align: center;
-  padding: 20px;
+  text-align: right;
+  font-size: 40px;
+}
+.button{
+  padding-bottom: 10px;
+}
+#shrink{
+  font-family:Monaco, Consolas, "Lucida Console", monospace;
 }
 
 #contact{
   text-align: center;
-
 }
-
 img {
   width: 180px;
   height: 80px;
