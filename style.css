@@ -1,3 +1,31 @@
+header {
+  text-align:right;;
+  font-weight: 800;
+  color: #3410a7;
+  font-family: Oswald;
+  font-size: 20px;
+}
+
 body {
   background-color: #fae8ea;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+}
+img {
+  width: 20px;
+  hegiht: 20px;
+}
+
+/*div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+img {
+  width:200px;
+  height: 100px;
 }
