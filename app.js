@@ -3,7 +3,7 @@ $(document).ready(function(){
 })
 
 function setBindings(){
-  $("nava").click(function(e){
+  $("nav a").click(function(e){
     e.preventDefault();
     var sectionID = e.currentTarget.id + "Section";
 

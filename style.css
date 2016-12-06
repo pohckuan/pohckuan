@@ -21,10 +21,10 @@ a {
   padding: 10px;
   padding-top: 10px;
 }
-body {
+/*body {
 background-color: violet;
 align-content: center;
-}
+}*/
 
 img{
   width,height: 250px;
@@ -37,13 +37,15 @@ img{
 }
 
 #homeSection{
-  background-color: yellow;
+  background-image: url("http://1.bp.blogspot.com/-AFd0wwL5770/UCefOs21sxI/AAAAAAAAEoU/oSUTPBS2us8/s1600/hd-elephants-wallpapers-with-a-elephant-in-a-field-of-yellow-flowers-elephant-wallpaper-background.jpg");
 }
 #aboutSection{
   background-color: white;
+  display: flex;
+
 }
 #projectSection{
-  background-color: blue;
+background-image: url("http://afflictionthemovie.com/wp-content/uploads/2016/04/Brick-Wall-Background-4.jpg");
 }
 #resumeSection{
   background-color: purple;
@@ -82,3 +84,39 @@ img {
 li {
 list-style-type: none;
 {*/
+#aboutSection .cooking{
+  background-color: brown;
+}
+/*Projects*/
+#projectSection{
+  text-align: center;
+  justify-content: space-around;
+}
+#projectSection .wrapper{
+  display: flex;
+  justify-content: space-around;
+}
+#projectSection .project1{
+  background-image:url('image/trivia.png');
+  background-size: cover;
+  height:250px;
+  width: 400px;
+  margin-top: 200px;
+
+}
+#projectSection .project2{
+  background-image:url('image/eveRing.png');
+  background-size: cover;
+  height:250px;
+  width: 400px;
+  margin-top: 200px;
+
+}
+#projectSection .project4{
+  background-image:url('image/sweetrecipes.png');
+  background-size: cover;
+  height:250px;
+  width: 400px;
+  margin-top: 200px;
+
+}
