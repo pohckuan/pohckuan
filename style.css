@@ -21,12 +21,8 @@ a {
   padding: 10px;
   padding-top: 10px;
 }
-/*body {
-background-color: violet;
-align-content: center;
-}*/
 
-img{
+.headshot{
   width,height: 250px;
   border-radius:50%;
 }
@@ -35,17 +31,29 @@ img{
   height:900px;
   width: 100%;
 }
-
 #homeSection{
-  background-image: url("http://1.bp.blogspot.com/-AFd0wwL5770/UCefOs21sxI/AAAAAAAAEoU/oSUTPBS2us8/s1600/hd-elephants-wallpapers-with-a-elephant-in-a-field-of-yellow-flowers-elephant-wallpaper-background.jpg");
+  background-image: url("https://pixabay.com/get/e836b70a2bfc063ed1584d05fb0938c9bd22ffd41db9104096f7c67cae/dock-1365387_1280.jpg");
+  background-size: cover;
+  text-align: center;
+}
+
+#homeSection .content{
+  padding-top: 100px;
+  width: 700px;
+  text-align: center;
+  margin-left: 350px;
+}
+
+#homeSection h1{
+  margin-top: 0px;
 }
 #aboutSection{
   background-color: white;
-  display: flex;
-
+  text-align: center;
 }
+
 #projectSection{
-background-image: url("http://afflictionthemovie.com/wp-content/uploads/2016/04/Brick-Wall-Background-4.jpg");
+background-image: url("https://pixabay.com/get/ed30b80d21fd1c22d2524518a33219c8b66ae3d111b0104291f4c87a/bricks-459299_1280.jpg");
 }
 #resumeSection{
   background-color: purple;
@@ -84,9 +92,31 @@ img {
 li {
 list-style-type: none;
 {*/
-#aboutSection .cooking{
-  background-color: brown;
+#aboutSection .content{
+  display: flex;
 }
+#aboutSection .content div{
+  width: 460px;
+  height: 900px;
+
+}
+.elephant{
+background-image: url("https://cdn.pixabay.com/photo/2016/09/03/14/44/elephant-1641902_640.jpg");
+background-size: cover;
+}
+.elephant a{
+  color: black;
+}
+.baking{
+  background-image: url("https://cdn.pixabay.com/photo/2015/07/16/16/38/cake-847907_640.jpg");
+  background-size: cover;
+
+}
+.piano{
+  background-image:url("https://cdn.pixabay.com/photo/2015/02/09/10/25/piano-629487_640.jpg");
+  background-size: cover;
+}
+
 /*Projects*/
 #projectSection{
   text-align: center;
