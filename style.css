@@ -101,7 +101,7 @@ list-style-type: none;
 
 }
 #elephant{
-background-image: url("https://cdn.pixabay.com/photo/2016/09/03/14/44/elephant-1641902_640.jpg");
+background-image: url("image/elephant.jpg");
 background-size: cover;
 }
 .about_sub_title h1{
@@ -129,7 +129,7 @@ background-size: cover;
 
 }
 #piano{
-  background-image:url("https://cdn.pixabay.com/photo/2015/02/09/10/25/piano-629487_640.jpg");
+  background-image:url("image/piano.jpg");
   background-size: cover;
 }
 
