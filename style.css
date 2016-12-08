@@ -100,19 +100,35 @@ list-style-type: none;
   height: 900px;
 
 }
-.elephant{
+#elephant{
 background-image: url("https://cdn.pixabay.com/photo/2016/09/03/14/44/elephant-1641902_640.jpg");
 background-size: cover;
 }
-.elephant a{
-  color: black;
+.about_sub_title h1{
+  font-variant: small-caps;
+  margin-top: 50px;
 }
-.baking{
+.show{
+  visibility: hidden;
+}
+.show a{
+  font-weight: bold;
+  color: red;
+  font-variant: small-caps;
+  font-size: 20px;
+}
+#elephant:hover, #baking:hover, #piano:hover{
+  opacity: 0.75;
+}
+#elephant:hover .show, #baking:hover .show, #piano:hover .show{
+  visibility: visible;
+}
+#baking{
   background-image: url("https://cdn.pixabay.com/photo/2015/07/16/16/38/cake-847907_640.jpg");
   background-size: cover;
 
 }
-.piano{
+#piano{
   background-image:url("https://cdn.pixabay.com/photo/2015/02/09/10/25/piano-629487_640.jpg");
   background-size: cover;
 }
