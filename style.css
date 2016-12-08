@@ -1,11 +1,3 @@
-/*header {
-  text-align:right;;
-  font-weight: 800;
-  color: #3410a7;
-  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
-  font-size: 20px;
-
-}*/
 #navbar{
   position: fixed;
   width: 100%;
@@ -16,10 +8,10 @@
   color: black;
 }
 a {
+  font-size: 20px;
   color: white;
   text-decoration: none;
-  padding: 10px;
-  padding-top: 10px;
+  padding: 20px;
 }
 
 .headshot{
@@ -32,13 +24,19 @@ a {
   width: 100%;
 }
 #homeSection{
-  background-image: url("https://pixabay.com/get/e836b70a2bfc063ed1584d05fb0938c9bd22ffd41db9104096f7c67cae/dock-1365387_1280.jpg");
+  background-image: url("image/background.jpg");
   background-size: cover;
   text-align: center;
 }
-
+.contactlogo {
+  padding-top: 80px;
+}
+.contactlogo img{
+  height: 45px;
+  width: 45px;
+}
 #homeSection .content{
-  padding-top: 100px;
+  padding-top: 80px;
   width: 700px;
   text-align: center;
   margin-left: 350px;
@@ -53,45 +51,17 @@ a {
 }
 
 #projectSection{
-background-image: url("https://pixabay.com/get/ed30b80d21fd1c22d2524518a33219c8b66ae3d111b0104291f4c87a/bricks-459299_1280.jpg");
+background-image: url("image/brick.jpg");
+background-size: cover;
 }
 #resumeSection{
-  background-color: purple;
-}
-/*.intro{
-  padding: 20px 40px;
-  font-family: font-family: Papyrus, fantasy;
-  font-variant: small-caps;
-  font-size: 50px;
-  color: purple;
+  background-image: url("image/green.jpg");
+  background-size: cover;
   text-align: center;
-  background-image: radial-gradient(white, orange);
+  padding-top: 60px;
+  font-size: 30px;
+  text-decoration: underline;
 }
-
-a:hover{
-  background-color: grey;
-}
-h1 {
-  text-align: right;
-  font-size: 40px;
-}
-.button{
-  padding-bottom: 10px;
-}
-#shrink{
-  font-family:Monaco, Consolas, "Lucida Console", monospace;
-}
-
-#contact{
-  text-align: center;
-}
-img {
-  width: 180px;
-  height: 80px;
-}
-li {
-list-style-type: none;
-{*/
 #aboutSection .content{
   display: flex;
 }
@@ -110,6 +80,13 @@ background-size: cover;
 }
 .show{
   visibility: hidden;
+  font-weight: bolder;
+}
+#piano p{
+  color: white;
+}
+#baking p{
+  color:gold;
 }
 .show a{
   font-weight: bold;
@@ -124,7 +101,7 @@ background-size: cover;
   visibility: visible;
 }
 #baking{
-  background-image: url("https://cdn.pixabay.com/photo/2015/07/16/16/38/cake-847907_640.jpg");
+  background-image: url("image/macaron.jpg");
   background-size: cover;
 
 }
@@ -137,32 +114,18 @@ background-size: cover;
 #projectSection{
   text-align: center;
   justify-content: space-around;
+  padding-top: 100px;
 }
 #projectSection .wrapper{
   display: flex;
   justify-content: space-around;
 }
-#projectSection .project1{
-  background-image:url('image/trivia.png');
-  background-size: cover;
+#projectSection img{
   height:250px;
   width: 400px;
-  margin-top: 200px;
-
+  margin-top: 50px;
 }
-#projectSection .project2{
-  background-image:url('image/eveRing.png');
-  background-size: cover;
-  height:250px;
-  width: 400px;
-  margin-top: 200px;
 
-}
-#projectSection .project4{
-  background-image:url('image/sweetrecipes.png');
-  background-size: cover;
-  height:250px;
-  width: 400px;
-  margin-top: 200px;
-
+#projectSection a{
+  font-size: 30px;
 }
