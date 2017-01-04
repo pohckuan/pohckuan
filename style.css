@@ -123,9 +123,13 @@ background-size: cover;
 #projectSection img{
   height:250px;
   width: 400px;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 #projectSection a{
   font-size: 30px;
+  color:coral;
+  background-color: white;
+  padding: 0px;
+
 }
