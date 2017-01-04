@@ -90,8 +90,8 @@ background-size: cover;
 }
 .show a{
   font-weight: bold;
-  color: red;
   font-variant: small-caps;
+  color: black;
   font-size: 20px;
 }
 #elephant:hover, #baking:hover, #piano:hover{
