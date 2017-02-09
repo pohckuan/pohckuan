@@ -53,15 +53,17 @@ a {
 }
 
 #projectSection{
-background-image: url("image/brick.jpg");
+background-image: url("image/water.jpg");
 background-size: cover;
+background-color: #adb6f9;
 }
 #resumeSection{
-  background-image: url("image/green.jpg");
+  background-image: url("image/blue.jpg");
   background-size: cover;
   text-align: center;
   padding-top: 60px;
   font-size: 30px;
+  /*background-color: #a3d0e4;*/
   text-decoration: underline;
 }
 #aboutSection .content{
@@ -118,20 +120,46 @@ background-size: cover;
   justify-content: space-around;
   padding-top: 100px;
 }
+
+#projectSection h1{
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 50px;
+}
 #projectSection .wrapper{
   display: flex;
   justify-content: space-around;
+  padding-top: 50px;
 }
-#projectSection img{
+#projectSection .image{
   height:250px;
-  width: 400px;
+  width: 250px;
   margin-top: 10px;
+  border-radius: 50%;
+
+}
+#projectSection .hi{
+  height:250px;
+  width: 250px;
+  border-radius: 50%;
+
+
+}
+#project4{
+  background-image: url("image/bread.png");
 }
 
+#project2{
+  background-image: url("image/ring.png");
+}
+
+#project1{
+  background-image: url("image/test.png");
+}
 #projectSection a{
   font-size: 30px;
-  color:coral;
-  background-color: white;
+  color:white;
   padding: 0px;
+  font-family: cursive;
 
 }
