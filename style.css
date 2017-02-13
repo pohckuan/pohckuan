@@ -9,7 +9,7 @@
 }
 #navbar a {
   font-size: 20px;
-  color: white;
+  color: blue;
   text-decoration: none;
   padding: 20px;
 }
@@ -81,6 +81,7 @@ background-size: cover;
 .about_sub_title h1{
   font-variant: small-caps;
   margin-top: 50px;
+  color: black;
 }
 .show{
   visibility: hidden;
