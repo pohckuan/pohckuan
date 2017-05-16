@@ -4,15 +4,28 @@
     <meta charset="utf-8">
     <title> Poh C. Kuan </title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
   <body>
 
-    <nav id="navbar">
-      <a id="home" href="#homeSection">HOME</a>
-      <a id="about" href="#aboutSection">ABOUT</a>
-      <a id="project" href="#projectSection">PROJECT</a>
-      <a id="resume" href="#resumeSection">RESUME</a>
+    <nav id="navbar" class="navbar navbar-inverse ">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <ul class="nav navbar-nav">
+
+            <li><a id="home" href="#homeSection">HOME</a></li>
+            <li><a id="about" href="#aboutSection">ABOUT</a></li>
+            <li><a id="project" href="#projectSection">PROJECT</a></li>
+            <li><a id="resume" href="#resumeSection">RESUME</a></li>
+          </ul>
+
+        </div>
+
+      </div>
       <!-- <a id="contact" href="#contactSection">CONTACT</a> -->
     </nav>
 
@@ -38,39 +51,42 @@
 
     </div>
     <div id="aboutSection" class="section">
-      <div class="content">
-        <div class="about_sub_title" id="elephant">
-          <h1>Elephants</h1>
-          <div class="show">
-            <p>My love for elephants began with Disney's Dumbo!</p><br>
-            <p>Visit the following sites to find out more!</p><br>
-            <a href="https://yearoftheelephant.org">WildAid's "Be Ivory Free" campaign</a><br>
-            <a href="http://www.saveelephant.org/">Save Elephant Foundation</a><br>
-            <a href="http://savetheelephants.org/project/elephant-crisis-fund/">Save the Elephants - Elephant Crisis Fund</a><br>
-            <a href="http://elephantswithoutborders.org/donate/">Elephants Without Borders</a><br>
-            <a href="https://secure.awf.org/support-african-wildlife-foundation?gclid=Cj0KEQjwgJq-BRCFqcLW8_DU9agBEiQAz8Koh-5TlfaMJNn0D0FvBv_Zp85cB95ZPzMhWNrVLzUZKxQaAsXp8P8HAQ">African Wildlife Foundation</a><br>
+      <div class="row">
 
-            <h3>PLEASE HELP SAVE THE ELEPHANTS!</h3> <br>
+        <div class="content">
+          <div class="about_sub_title col-md-4" id="elephant">
+            <h1>Elephants</h1>
+            <div class="show">
+              <p>My love for elephants began with Disney's Dumbo!</p><br>
+              <p>Visit the following sites to find out more!</p><br>
+              <a href="https://yearoftheelephant.org">WildAid's "Be Ivory Free" campaign</a><br>
+              <a href="http://www.saveelephant.org/">Save Elephant Foundation</a><br>
+              <a href="http://savetheelephants.org/project/elephant-crisis-fund/">Save the Elephants - Elephant Crisis Fund</a><br>
+              <a href="http://elephantswithoutborders.org/donate/">Elephants Without Borders</a><br>
+              <a href="https://secure.awf.org/support-african-wildlife-foundation?gclid=Cj0KEQjwgJq-BRCFqcLW8_DU9agBEiQAz8Koh-5TlfaMJNn0D0FvBv_Zp85cB95ZPzMhWNrVLzUZKxQaAsXp8P8HAQ">African Wildlife Foundation</a><br>
 
+              <h3>PLEASE HELP SAVE THE ELEPHANTS!</h3> <br>
+
+            </div>
           </div>
-        </div>
-        <div class="about_sub_title" id="baking">
-          <h1>Baking</h1>
-          <div class="show">
-            <p>After moving to DC, I finally have a fully equipped kitchen of my own!</p>
-            <p>I started to learn baking and searching for recipes in my free time.</p>
-            <p>I even built a recipes app called "Sweet Recipes" to create my own recipes book!</p>
-            <a href="https://sweetrecipes.herokuapp.com">The Sweet Recipes</a>
+          <div class="about_sub_title col-md-4" id="baking">
+            <h1>Baking</h1>
+            <div class="show">
+              <p>After moving to DC, I finally have a fully equipped kitchen of my own!</p>
+              <p>I started to learn baking and searching for recipes in my free time.</p>
+              <p>I even built a recipes app called "Sweet Recipes" to create my own recipes book!</p>
+              <a href="https://sweetrecipes.herokuapp.com">The Sweet Recipes</a>
+            </div>
           </div>
-        </div>
-        <div class="about_sub_title" id="piano">
-          <h1>Piano</h1>
-          <div class="show">
-            <p>Learning to play piano is not easy!</p>
-            <p>But my love for music won't stop me!</p>
-            <p>I plan to teach myself to play at least one song of Chopin to get it off my bucket list!</p>
-            <p>Currently Learning:</p>
-            <a href="https://www.youtube.com/watch?v=9E6b3swbnWg">Nocturne op.9 No.2</a>
+          <div class="about_sub_title col-md-4" id="piano">
+            <h1>Piano</h1>
+            <div class="show">
+              <p>Learning to play piano is not easy!</p>
+              <p>But my love for music won't stop me!</p>
+              <p>I plan to teach myself to play at least one song of Chopin to get it off my bucket list!</p>
+              <p>Currently Learning:</p>
+              <a href="https://www.youtube.com/watch?v=9E6b3swbnWg">Nocturne op.9 No.2</a>
+            </div>
           </div>
         </div>
       </div>
@@ -106,7 +122,7 @@
     </div>
     </div>
     <div id="resumeSection" class="section">
-      <a href="https://drive.google.com/open?id=0B5ik3tlyuPtLVkd0VDh5NjlzUW8">Download My Resume</a> <br>
+      <a href="https://drive.google.com/open?id=0B5ik3tlyuPtLRGYxbmJyQkN3SE0">Download My Resume</a> <br>
       <img src="image/resume.png" alt="Poh's Resume" />
     </div>
     <!-- <div id="contactSection" class="section">
